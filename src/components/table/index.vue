@@ -1,5 +1,5 @@
 <template>
-  <div class="dd-flow-root dd-w-full" v-bind="$attrs">
+  <div class="dd-w-full dd-grid" v-bind="$attrs">
     <div class="dd-min-w-full dd-align-middle dd-bg-white dd-relative">
       <div :class="[
         !fixedHeight ? '' : getCalculatedHeight,
