@@ -16,16 +16,12 @@ import Actions from "./Actions.vue";
 
 const showIcon = ref(true);
 const buttons = ref([
-    { id: 1, label: "Button 1", color: "white", icon: "ChevronLeft" },
-    { id: 2, label: "Button 2", color: "primary", icon: "ChevronRight" },
-    { id: 3, label: "Button 3", color: "danger", icon: "ChevronDown" },
-    { id: 4, label: "Button 4", color: "warning", icon: "ChevronLeft" },
-    { id: 5, label: "Button 5", color: "selected", icon: "ChevronRight" },
-    { id: 6, label: "", size: "xs", color: "white", icon: "ChevronUp" },
-    { id: 7, label: "", size: "xl", color: "white", icon: "ChevronDown" },
-    //add more buttons here use same props as defined in dd-button
+    { id: 0, label: "", color: "white", size: "16", icon: "Plus" },
+    { id: 1, label: "", color: "white", size: "16", icon: "Pencil" },
+    { id: 2, label: "", color: "white", size: "16", icon: "DotHorizontal" },
 ]);
-const treeItem = [
+
+const treeItem = ref([
     {
         id: 0, label: "All Categories", icon: "", checkbox: true, checked: true, badge: true, actions: true, disabled: false, children: [
             {
@@ -85,7 +81,7 @@ const treeItem = [
         ]
     },
     { id: 2, label: "Watch", icon: "", checkbox: true, checked: true, badge: true, actions: true, disabled: false, children: [] },
-]
+]);
 </script>
 
 <style scoped></style>

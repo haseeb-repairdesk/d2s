@@ -1,9 +1,6 @@
 <template>
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path
-      d="M3.33301 16.6666H6.66634L15.4163 7.91663C16.3368 6.99616 16.3368 5.50377 15.4163 4.5833C14.4959 3.66283 13.0035 3.66283 12.083 4.5833L3.33301 13.3333V16.6666"
-      stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M11.25 5.41663L14.5833 8.74996" stroke="#737373" stroke-width="1.5" stroke-linecap="round"
-      stroke-linejoin="round" />
-  </svg>
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2.66699 13.3332H5.33366L12.3337 6.33321C13.07 5.59683 13.07 4.40292 12.3337 3.66654C11.5973 2.93016 10.4034 2.93016 9.66699 3.66654L2.66699 10.6665V13.3332" stroke="#6B7280" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9 4.3335L11.6667 7.00016" stroke="#6B7280" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
 </template>
